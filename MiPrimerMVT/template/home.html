@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {%for familiar in familia%}
+        <br>El nombre es: {{familiar.nombre}}</br>
+        <br>Su edad es: {{familiar.edad}}</br>
+        <br>Su fecha de nacimiento es: {{familiar.fecha_de_nacimiento}}</br>
+        <br>Su dni es: {{familiar.dni}}</br>
+        <br>Su numero de telefono es: {{familiar.numero_de_telefono}}</br>
+        <br>Su nacionalidad es: {{familiar.nacionalidad}}</br>
+        <br>Su rol en la familia es el de: {{familiar.parentesco}}</br>
+    {%endfor%}
+</body>
+</html>
